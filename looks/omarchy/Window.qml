@@ -93,6 +93,7 @@ Item {
 
   FloatingWindow {
     id: window
+    visible: false
     title: root.inRoom ? roomView.roomName + " – Yapper" : "Yapper"
     color: root.bg
     implicitWidth: 960
