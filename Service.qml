@@ -21,8 +21,8 @@ Item {
   readonly property string pluginId: "marcho78.yapper"
   readonly property string runtimeDir: Quickshell.env("XDG_RUNTIME_DIR")
   readonly property string socketPath: runtimeDir + "/omarchy-yapper.sock"
-  readonly property string daemonRepo: "https://github.com/marcho78/omarchy-yapperd"
-  readonly property string pluginRepo: "https://github.com/marcho78/omarchy-yapper"
+  readonly property string daemonRepo: "https://github.com/londospark/omarchy-yapperd"
+  readonly property string pluginRepo: "https://github.com/londospark/omarchy-yapper"
   readonly property string daemonUnit: "omarchy-yapperd"
   // The only daemon commit this plugin ever installs, updates to or reinstalls: the
   // packaging commit tagged pkg-vX.Y.Z in the daemon repository, which holds both
